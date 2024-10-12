@@ -34,15 +34,16 @@ const Profile: React.FC = () => {
                     <strong>City:</strong>
                     <span>Pakistan - Karachi</span>
                   </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Phone:</strong>
-                    <span>+923458849343</span>
-                  </li>
+                  
                   <li>
                     <i className="bi bi-chevron-right"></i>
                     <strong>Date Of Birth:</strong>
                     <span>21 June 2009</span>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>
+                    <strong>Freelance:</strong>
+                    <span style={{ color: "green" }}>Available</span>
                   </li>
                 </ul>
               </div>
@@ -63,11 +64,7 @@ const Profile: React.FC = () => {
                     <strong>Email:</strong>
                  <span>ayeshamughal2162[at]gmail.com</span>
                   </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>
-                    <strong>Freelance:</strong>
-                    <span style={{ color: "green" }}>Available</span>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
