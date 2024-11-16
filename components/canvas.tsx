@@ -1,14 +1,14 @@
-// components/MatrixRain.tsx
 
-import React, { useEffect, useRef } from 'react';
+
+import React, { useEffect, useRef } from "react";
 
 const MatrixRain: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   useEffect(() => {
     const c = canvasRef.current!;
-    const ctx = c.getContext('2d')!;
-    
+    const ctx = c.getContext("2d")!;
+
     c.height = window.innerHeight;
     c.width = window.innerWidth;
 
@@ -38,7 +38,7 @@ const MatrixRain: React.FC = () => {
 
     const interval = setInterval(draw, 35);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
   return <canvas ref={canvasRef} id="c" />;
